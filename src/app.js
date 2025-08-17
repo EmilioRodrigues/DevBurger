@@ -3,6 +3,8 @@ import express from "express";
 // Importa as rotas definidas no arquivo routes.js
 import routes from "./routes";
 
+import './database';
+
 // Cria uma classe chamada App para organizar a configuração do servidor
 class App {
   constructor() {
