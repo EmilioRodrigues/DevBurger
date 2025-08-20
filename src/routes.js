@@ -1,6 +1,6 @@
 // Importa apenas o Router da biblioteca express
 import { Router } from "express";
-import UserController from "./app/controllers/UserContoller";
+import UserController from "./app/controllers/UserController";
 
 // Cria uma nova instância do Router, que vai gerenciar os caminhos (rotas) da aplicação
 const routes = new Router();
