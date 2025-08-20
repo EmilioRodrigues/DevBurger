@@ -14,7 +14,7 @@ routes.get("/", async (request, response) => {
   const user = await User.create({
     id: v4(),
     name: "Emilio",
-    email: "emilio@email.com",
+    email: "emilio29@email.com",
     password_hash: "erf12345qcs",
   });
 

@@ -1,13 +1,14 @@
 module.exports = {
-  dialect: 'postgres',
-  host: 'localhost',
+  dialect: "postgres",
+  host: "localhost",
   port: 5432,
-  username: 'postgres',
-  password: 'postgres',
-  database: 'devburger',
+  username: "postgres",
+  password: "postgres",
+  database: "devburger",
   define: {
     timestamps: true,
     underscored: true,
     underscoredAll: true,
-  }
-}
+    logging: console.log,
+  },
+};
